@@ -7,7 +7,7 @@ Fix included:
 - Audio no longer remains on Loading when no recording is attached.
 - Video no longer remains on Loading when no recording is attached.
 - Player and Media pages use the same library path.
-- All pages use content/library.json consistently.
+- All pages use library.json consistently.
 - Service worker cache updated and HTML/JSON use network-first loading to reduce stale-page problems.
 
 GitHub Pages:
@@ -20,7 +20,7 @@ CONTENT CONTROL / EDITOR UPDATE
 - Repeat-use checking warns about exact title, same primary Scripture, exact message text, same topic and recent use.
 - Warnings do not block deliberate reuse: the pastor/ministry decides.
 - Usage history is stored locally in the browser and can be exported with the library JSON.
-- Because GitHub Pages is static, browser edits do not directly write back to GitHub. Use Export, then replace the repository's content/library.json when you want the published library updated.
+- Because GitHub Pages is static, browser edits do not directly write back to GitHub. Use Export, then replace the repository's library.json when you want the published library updated.
 
 
 CONTENT CONVERSION + SHARE STUDIO
